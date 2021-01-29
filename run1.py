@@ -89,7 +89,7 @@ def get_yang(task):
         joined = f"{intf} - {ip}/{prefix}"
         # Walk back up the tree to correlate the interface oper-status
         oper_status = element.xpath("ancestor::interface/state/oper-status/text()")
-        # Xpath returns a list with one item = unwrap the list
+        # Xpath returns a list with one item - unwrap the list
         oper = oper_status[0]
 
         # If state is 'DOWN' - add interface to down list
