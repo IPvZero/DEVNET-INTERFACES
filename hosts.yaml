@@ -1,0 +1,29 @@
+---
+IOSXE:
+  hostname: "sandbox-iosxe-latest-1.cisco.com"
+  username: "developer"
+  password: "C1sco12345"
+  port: 830
+  groups:
+    - cisco_group
+  connection_options:
+    scrapli_netconf:
+        extras:
+          port: 830
+          ssh_config_file: True
+          auth_strict_key: False
+
+
+IOSXR:
+  hostname: "sbx-iosxr-mgmt.cisco.com"
+  username: "admin"
+  password: "C1sco12345"
+  port: 10000
+  groups:
+    - cisco_group
+  connection_options:
+    scrapli_netconf:
+        extras:
+          port: 10000
+          ssh_config_file: True
+          auth_strict_key: False
