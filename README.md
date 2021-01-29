@@ -16,6 +16,7 @@ This short lab pulls interface information from the Always-On IOSXE and IOSXR Sa
 ```
 python3 -m pip install -r requirements
 ```
+or 
 
 ```pip3 install -r requirements```
 
