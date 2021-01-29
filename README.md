@@ -33,5 +33,23 @@ pip3 install -r requirements.txt
 python3 run1.py
 ```
 
-# Output
+## Output
 ![alt text](https://github.com/IPvZero/DEVNET-INTERFACES/blob/main/images/richpic.png?raw=true)
+
+
+## You can SSH into each device manually using the following credentials
+# IOSXE
+```ssh developer@sandbox-iosxe-latest-1.cisco.com
+Password: C1sco12345
+```
+
+# IOSXR 
+```ssh admin@sbx-iosxr-mgmt.cisco.com -p 8181
+Password: C1sco12345
+```
+
+### WARNING
+You may log into each device and manually alter the configuration to change the outputs ie shutting and no shutting the interfaces/adding IP addresses.
+However, in order to not erroneously alter critical settings be sure to issue a ```show run``` and read any interface descriptions.
+My recommendation is to log into each device and add loopback addresses and manually shut them down/bring them up as a safeguard to avoid altering and MGMT connectivity configurations.
+
