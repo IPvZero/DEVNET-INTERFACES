@@ -21,7 +21,7 @@ python3 -m pip install -r requirements.txt
 or 
 pip3 install -r requirements.txt
 
-4) Execute the script run1.py script
+4) Execute the run1.py script
 python3 run1.py
 
 ********************************************************
