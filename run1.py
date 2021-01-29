@@ -66,7 +66,7 @@ def get_yang(task):
         severity_level=logging.DEBUG,
     )
     # Get the XML string by taking the .result attribute
-    # Save this to a varible called 'output'
+    # Save this to a variable called 'output'
     output = result.result
 
     # Give etree the string XML from the 'output' variable
