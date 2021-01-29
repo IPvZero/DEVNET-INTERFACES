@@ -54,5 +54,5 @@ Password: C1sco12345
 You may log into each device and manually alter the configuration to change the outputs ie shutting and no shutting the interfaces/adding IP addresses.
 However, in order to not erroneously alter critical settings be sure to issue a ```show run``` and read any interface descriptions.
 My recommendation is to log into each device, add loopback interfaces and addresses and manually ```shut/no shut``` them. 
-This will act as safeguard to avoid altering any MGMT connectivity configurations.
+This will act as a safeguard in avoiding the alteration of any MGMT connectivity configurations.
 
