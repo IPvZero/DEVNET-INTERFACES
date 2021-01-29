@@ -18,12 +18,12 @@ cd DEVNET-INTERFACES
 ## 3) Pip (or pip3) install the requirements
 
 ```
-python3 -m pip install -r requirements
+python3 -m pip install -r requirements.txt
 ```
   or 
 
 ```
-pip3 install -r requirements
+pip3 install -r requirements.txt
 ```
 
 
