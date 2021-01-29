@@ -13,12 +13,15 @@ Instructions:
 1) Git clone the repository
 git clone https://github.com/IPvZero/DEVNET-INTERFACES/
 
-2) Pip (or pip3) install the requirements
+2) Change into the DEVNET-INTERFACES directory
+cd DEVNET-INTERFACES
+
+3) Pip (or pip3) install the requirements
 python3 -m pip install -r requirements.txt
 or 
 pip3 install -r requirements.txt
 
-3) Execute the script run1.py script
+4) Execute the script run1.py script
 python3 run1.py
 
 ********************************************************
